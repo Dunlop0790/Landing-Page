@@ -1,13 +1,15 @@
 body {
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .s1 {
     background-color: #1f2937;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
-    height: 200px;
+    height: 400px;
+    gap: 48px;
 }
 
 .body {
@@ -23,18 +25,43 @@ li {
 ul {
     display: flex;
     justify-content: flex-end;
-    margin: 0;
+    gap: 16px;
     padding: 0;
+    margin-bottom: 48px;
+}
+
+.header,
+.maintext {
+    color: #F9FAF8;
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 12px 0px 48px
 }
 
 .s1left,
 .s1right {
     display: flex;
     flex-direction: column;
-    width: 400px;
-    margin: 32px;
+    width: 500px;
+    /* margin: 32px; */
 }
 
-.s1left {
+.sign-up1 {
+    display: flex;
+    align-self: flex-start;
+    padding: 6px 12px;
+}
 
+.subtext,
+li {
+    font-size: 18px;
+    color: #E5E7EB;
 }
