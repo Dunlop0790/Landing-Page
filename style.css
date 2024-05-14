@@ -23,11 +23,6 @@ body {
     gap: 48px;
 }
 
-.two {
-    text-align: center;
-    justify-content: center;
-}
-
 .body {
     display: flex;
     justify-content: center;
@@ -53,7 +48,7 @@ ul {
 
 .maintext {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .header {
@@ -94,8 +89,17 @@ li {
     color: #E5E7EB;
 }
 
+.two {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 400px;
+}
+
 .info {
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .s2{
@@ -103,5 +107,18 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     gap: 52px;
+}
+
+.s2title {
+    margin: 48px 0px 96px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.infoimg {
+    width: 100px;
+    height: 100px;
 }
