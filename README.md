@@ -1,1 +1,2 @@
 # Landing-Page
+This page contains a good chunk of all of the CSS I've learned so far, including, my currently knowledge of the flexbox layout model. It's laid out into 4 sections (5 if you count the footer) each utilizing different methods to align and style the content within each section.
