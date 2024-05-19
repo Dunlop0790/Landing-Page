@@ -201,3 +201,11 @@ li {
     text-align: left;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    height: 70px;
+}
