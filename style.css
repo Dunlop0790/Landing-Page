@@ -98,6 +98,15 @@ li {
     height: 400px;
 }
 
+.three {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 400px;
+}
+
 .info {
     /* justify-content: center; */
 }
@@ -121,4 +130,17 @@ li {
 .infoimg {
     width: 100px;
     height: 100px;
+}
+
+.quote,
+.quote2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
